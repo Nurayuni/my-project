@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Homepage</title>
+  <link rel= "stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+  <h3 class="w3-bar-item">MENU</h3>
+  <a href="index.html" class="w3-bar-item w3-button">My Homepage</a>
+  <a href="biodata.html" class="w3-bar-item w3-button">Biodata</a>
+  <a href="experience.html"class="w3-bar-item w3-button">Experience</a>
+  <a href="education.html" class="w3-bar-item w3-button">Education</a>
+  <a href="myfamily.html" class="w3-bar-item w3-button">Family</a>
+  <a href="gallery.html" class="w3-bar-item w3-button">Gallery</a>
+  <a href="contact.html" class="w3-bar-item w3-button">Contact me</a>
+
+</div>
+
+<center>
+<div class="w3-container">
+  <span class="w3-tag w3-jumbo w3-red">H</span>
+  <span class="w3-tag w3-jumbo">O</span>
+  <span class="w3-tag w3-jumbo w3-yellow">M</span>
+  <span class="w3-tag w3-jumbo">E</span>
+  <span class="w3-tag w3-jumbo">P</span>
+  <span class="w3-tag w3-jumbo">A</span>
+  <span class="w3-tag w3-jumbo">G</span>
+  <span class="w3-tag w3-jumbo">E</span>
+ 
+ </center>
+</div>
+
+<body>
+<center>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="yunie.jpg" style="width:70%">
+  <img class="mySlides" src="family.jpg" style="width:100%">
+  <img class="mySlides" src="yunie2.jpg" style="width:70%">
+  <img class="mySlides" src="friend2.jpg" style="width:70%">
+  <img class="mySlides" src="experience2.jpg" style="width:70%">
+  <img class="mySlides" src="education1.jpg" style="width:70%">
+  <img class="mySlides" src="gpms.jpg" style="width:70%">
+</div>
+</center>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<div class="w3-container w3-center w3-animate-left">
+  <h1>HELLO THERE XOXO!!!</h1>
+  <p>My name is Nur Ayuni. U can call me Yunie</p>
+  <p>Welcome to my websites. In this websites i will show u about my life</p>
+</div>
+
+<p><center><font face="Ink Free", size="07", color="Black">Let's go & have some fun! 
+</p></center></font>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+</body>
+</html>

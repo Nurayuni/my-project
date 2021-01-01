@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Myself</title>
+	<link rel= "stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+  <h3 class="w3-bar-item">MENU</h3>
+  <a href="index.html" class="w3-bar-item w3-button">My Homepage</a>
+  <a href="biodata.html" class="w3-bar-item w3-button">Biodata</a>
+  <a href="experience.html" class="w3-bar-item w3-button">Experience</a>
+  <a href="education.html" class="w3-bar-item w3-button">Education</a>
+  <a href="myfamily.html" class="w3-bar-item w3-button">Family</a>
+  <a href="gallery.html" class="w3-bar-item w3-button">Gallery</a>
+  <a href="contact.html" class="w3-bar-item w3-button">Contact me</a>
+
+</div>
+
+<center>
+<div class="w3-container">
+  <span class="w3-tag w3-jumbo">🍒</span>
+  <span class="w3-tag w3-jumbo w3-red">B</span>
+  <span class="w3-tag w3-jumbo">I</span>
+  <span class="w3-tag w3-jumbo w3-yellow">O</span>
+  <span class="w3-tag w3-jumbo">D</span>
+  <span class="w3-tag w3-jumbo">A</span>
+  <span class="w3-tag w3-jumbo">T</span>
+  <span class="w3-tag w3-jumbo">A</span>
+  <span class="w3-tag w3-jumbo">🍒</span>
+ 
+ </center>
+</div>
+
+
+<div class="w3-container">
+  <img class="w3-animate-fading" src="img_rr_01.jpg" style="width:100%">
+</div>
+
+<body>
+<center>
+<div class="w3-content w3-section" style="max-width:500px">
+<div class="w3-container w3-center w3-animate-left">
+  <img class="mySlides" src="yunie2.jpg" style="width:70%">
+  <img class="mySlides" src="yunie.jpg" style="width:100%">
+  <img class="mySlides" src="yunie1.jpeg" style="width:70%">
+</div>
+</center>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+	
+<center>
+<p>💛Name: Nur Ayuni binti Rozali</p>
+<p>💛Nick Name: Yunie</p>
+<p>💛Gender: Female</p>
+<p>💛Age: 21 years old</p>
+<p>💛Date of birth: 2 October 1999</p>
+<p>💛Place of birth: Hospital Besar Tanah Merah Kelantan</p>
+<p>💛Race: Malay</p>
+<p>💛Nationality: Malaysian</p>
+<p>💛Religion: Islam</p>
+<p>💛Address: PT12626, Kg Bukit Panau, 17500 Tanah Merah Kelantan</p>
+</center>
+
+</body>
+</html>
